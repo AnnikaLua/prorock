@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ProRock Schwerkraftsimulator</title>
+        <link rel="stylesheet" href="stylesheet.css" />
+        <script src="prorock.js" async></script>
+    </head>
+    <body>
+        <main id="container">
+            <canvas id="prorock">
+            </canvas>
+        </main>
+        <footer>
+            <form>
+            <label>Zoom
+            <button type="button" id="zoomout">─</button>
+            <button type="button" id="zoomin">+</button>
+            </label>
+            <label>
+                <input type="checkbox" id='trail' />
+                Spur anzeigen
+            </label>
+            <label>Spurlänge
+                <input type="range" min="0" max="500" id='trailLength' />
+            </label>
+            <Button type="button" id="reset">Rakete zurücksetzen</Button>
+            </form>
+        </footer>
+    </body>
+</html>

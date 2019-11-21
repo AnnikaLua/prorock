@@ -1,0 +1,24 @@
+Changelog ProRock Schwerkraftsimulator
+--------------------------------------
+
+v0.0.3
+- NEU: Unterstützung für mehrere Planeten gleichzeitig
+- VERBESSERT: Das Zeichnen der Spur wurde optimiert
+- VERBESSERT: Spur wird mit einem Farbverlauf gezeichnet
+- ENTFERNT: Der Schieberegler für die Anziehungskraft macht bei mehreren Planeten keinen Sinn
+
+
+v0.0.2
+- NEU: Rakete zeichnet eine Spur
+- NEU: Spurlänge kann eingestellt werden
+- NEU: Ansicht kann durch Klicken und Ziehen verschoben werden
+- NEU: settings-Objekt im Code ermöglicht einfache Anpassung der Einstellungen
+
+
+v0.0.1
+- Erste Alpha-Version
+- NEU: Rakete kann mit Pfeiltasten gestuert werden
+- NEU: Planet mit realistisch modellierter Anziehungskraft
+- NEU: Die Anziehungskraft des Planeten kann über einen Schieberegler verändert werden
+- NEU: Bildausschnitt kann vergrössert und verkleinert werden
+- NEU: Rakete kann auf die Startposition zurückgesetzt werden

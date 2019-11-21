@@ -1,0 +1,34 @@
+body, main {
+    width: 99%;
+}
+
+html {
+    height: 100%;
+    font-family: Exo, Futura, Impact, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    height: 98%;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+footer {
+    flex: 0 1 auto;
+}
+
+div {
+    height: 100%;
+}
+
+canvas {
+    background-color: black;
+}
+
+.moving {
+    cursor: move;
+}
